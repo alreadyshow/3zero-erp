@@ -1,0 +1,23 @@
+{
+    "name": "3zero/erp",
+    "description": "3zero erp interface",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Erp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "venchi"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "~7.4",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-redis": "*"
+    }
+}
